@@ -37,7 +37,7 @@
         app:srcCompat="@drawable/happy_face" />
 
     <Button
-        android:id="@+id/btnSignin"
+        android:id="@+id/btnSingin"
         android:layout_width="239dp"
         android:layout_height="64dp"
         android:layout_marginTop="40dp"
@@ -46,9 +46,9 @@
         android:textSize="16sp"
         android:textStyle="normal"
         app:cornerRadius="60dp"
-        app:layout_constraintEnd_toEndOf="@+id/editPassWord"
-        app:layout_constraintStart_toStartOf="@+id/editPassWord"
-        app:layout_constraintTop_toBottomOf="@+id/editPassWord" />
+        app:layout_constraintEnd_toEndOf="@+id/editPassConfirm"
+        app:layout_constraintStart_toStartOf="@+id/editPassConfirm"
+        app:layout_constraintTop_toBottomOf="@+id/editPassConfirm" />
 
     <ImageView
         android:id="@+id/imageView8"
@@ -104,7 +104,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
     <EditText
-        android:id="@+id/editPassWord"
+        android:id="@+id/editPassConfirm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
@@ -121,11 +121,11 @@
         android:id="@+id/imageButton"
         android:layout_width="36dp"
         android:layout_height="33dp"
-        app:layout_constraintBottom_toBottomOf="@+id/editPassWord"
-        app:layout_constraintEnd_toEndOf="@+id/editPassWord"
+        app:layout_constraintBottom_toBottomOf="@+id/editPassConfirm"
+        app:layout_constraintEnd_toEndOf="@+id/editPassConfirm"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/editPassWord"
-        app:layout_constraintTop_toTopOf="@+id/editPassWord"
+        app:layout_constraintStart_toStartOf="@+id/editPassConfirm"
+        app:layout_constraintTop_toTopOf="@+id/editPassConfirm"
         app:srcCompat="@drawable/group" />
 
     <TextView
@@ -136,13 +136,13 @@
         android:text="Forgot PassWord?"
         android:textSize="18sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/btnSignin"
+        app:layout_constraintEnd_toEndOf="@+id/btnSingin"
         app:layout_constraintHorizontal_bias="0.524"
-        app:layout_constraintStart_toStartOf="@+id/btnSignin"
-        app:layout_constraintTop_toBottomOf="@+id/btnSignin" />
+        app:layout_constraintStart_toStartOf="@+id/btnSingin"
+        app:layout_constraintTop_toBottomOf="@+id/btnSingin" />
 
     <TextView
-        android:id="@+id/txtGGSingin"
+        android:id="@+id/txtGGRegister"
         android:layout_width="163dp"
         android:layout_height="25dp"
         android:layout_marginStart="8dp"

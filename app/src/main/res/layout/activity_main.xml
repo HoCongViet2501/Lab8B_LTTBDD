@@ -37,7 +37,7 @@
         app:srcCompat="@drawable/happy_face" />
 
     <Button
-        android:id="@+id/btnSignin"
+        android:id="@+id/btnSinginMain"
         android:layout_width="276dp"
         android:layout_height="73dp"
         android:layout_marginTop="52dp"
@@ -52,33 +52,28 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
     <Button
-        android:id="@+id/btnRegister"
+        android:id="@+id/btnSingin"
         android:layout_width="280dp"
         android:layout_height="74dp"
-        android:layout_marginTop="72dp"
-        android:backgroundTint="#4CAF50"
+        android:layout_marginTop="96dp"
+        android:backgroundTint="#EABB2E"
         android:text="Register"
         android:textSize="16sp"
         android:textStyle="normal"
         app:cornerRadius="58dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/btnSignin"
-        app:layout_constraintHorizontal_bias="0.333"
-        app:layout_constraintStart_toStartOf="@+id/btnSignin"
-        app:layout_constraintTop_toBottomOf="@+id/btnSignin"
-        app:layout_constraintVertical_bias="0.089"
+        app:layout_constraintEnd_toEndOf="@+id/btnSinginMain"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btnSinginMain"
+        app:layout_constraintTop_toBottomOf="@+id/btnSinginMain"
         app:strokeColor="#E91E63" />
 
     <ImageView
         android:id="@+id/imageView6"
         android:layout_width="508dp"
         android:layout_height="440dp"
-        android:layout_marginBottom="1dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintHorizontal_bias="0.35"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnSignin"
-        app:layout_constraintVertical_bias="0.583"
-        app:srcCompat="@drawable/intersect" />
+        app:srcCompat="@drawable/intersect"
+        tools:layout_editor_absoluteY="349dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
